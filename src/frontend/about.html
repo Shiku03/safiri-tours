@@ -15,7 +15,72 @@
     <title>About Us</title>
 </head>
 <body>
+    <div class="navbar-container" id="navbar-container" onclick="closeSideNav()"> </div>
 
+    <nav class="sidebar" id="sidebar">
+        <ul>
+            <li onclick="closeSideNav()"><i class="fa-solid fa-xmark"></i></li>
+            <li><i class="fa-solid fa-house"></i><a href="index.html">Home</a></li>
+            <li><i class="fa-solid fa-circle-info"></i><a href="about.html">About</a></li>
+            <li><i class="fa-solid fa-briefcase"></i><a href="careers.html">Careers</a></li>
+            <li><i class="fa-solid fa-address-book"></i><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <footer>
+            <p>Copyright 2024. All rights reserved</p>
+        </footer>
+    </nav>
+
+    <div id="content" class="about-content">
+
+        <nav class="navbar" id="navbar">
+            <span onclick="openSideNav()"><i class="fa-solid fa-bars"></i> MENU</span>
+            <h1><span>Logo</span></h1>
+        </nav>
+
+        <div class="large-container">
+            <div class="image-card">
+                <img src="../images/spacious hotel room.jpg" alt="" class="about-image">
+            </div>
+            <div class="about-text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper neque. </p>
+            </div>
+        </div>
+
+        <div class="large-container">
+            <div class="image-card">
+                <img src="../images/cottage at night.jpg" alt="" class="about-image">
+            </div>
+            <div class="about-text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper neque. </p>
+            </div>
+        </div>
+
+        <div class="large-container">
+            <div class="image-card">
+                <img src="../images/cottage.jpg" alt="" class="about-image">
+            </div>
+            <div class="about-text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper neque. </p>
+            </div>
+        </div>
+
+        <div class="large-container">
+            <div class="image-card">
+                <img src="../images/ocean view.jpg" alt="" class="about-image">
+            </div>
+            <div class="about-text-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed ullamcorper neque.</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright 2024. All rights reserved</p>
+        </footer>
+
+
+    </div>
+    
 
     
     <script src="../script.js"></script>
