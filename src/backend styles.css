@@ -45,4 +45,14 @@
     padding: 8px 0;
     text-align: center;
    }
+   .admin-table{
+    width:100%;
+    text-align: left;
+    padding: 12px;
+   }
+   td{
+    margin-bottom: 8px;
+    
+   }
+  
 }

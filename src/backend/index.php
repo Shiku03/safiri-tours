@@ -18,9 +18,9 @@
     <div class="content">
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Admin</a></li>
-            <li><a href="#">Booking</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="admin/admin.php">Admin</a></li>
+            <li><a href="bookings/bookings.php">Booking</a></li>
         </ul>
     </nav>
 <div class="dashboard">
