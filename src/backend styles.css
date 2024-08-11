@@ -1,0 +1,48 @@
+@media (max-width:500px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .content{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+    nav{
+        background-color:#aaa3a3;
+        padding: 8px ;
+        
+    }
+    nav ul{
+        text-align: center;
+    }
+    nav ul li{
+        display: inline;
+        padding: 8px 20px;
+    }
+   nav ul li a {
+    text-decoration: none;
+    color:black;
+    padding: 8px 0;
+   }
+   .dashboard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#c6c6c6;
+   }
+
+   .dashboard-item{
+    margin:40px;
+    padding:30px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 6px 4px 10px #312312;
+   }
+   footer{
+    background-color:#a6a6a6;
+    padding: 8px 0;
+    text-align: center;
+   }
+}
