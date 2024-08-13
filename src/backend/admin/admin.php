@@ -19,7 +19,7 @@
 <div class="content">
 <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
+            <li><a href="../index.php">Home</a></li>
             <li><a href="admin.php">Admin</a></li>
             <li><a href="../bookings/bookings.php">Booking</a></li>
         </ul>
@@ -50,6 +50,8 @@
             
         </tbody>
     </table>
+
+    <footer>Copyright 2024. All Rights Preserved</footer>
 </div>
     
 </body>
