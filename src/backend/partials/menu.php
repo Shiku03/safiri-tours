@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../backend styles.css">
+    <link rel="stylesheet" href="/src/backend styles.css">
     <title>Dashboard</title>
 </head>
 
@@ -18,8 +18,8 @@
     <div class="content">
     <nav>
         <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="admin/admin.php">Admin</a></li>
-            <li><a href="bookings/bookings.php">Booking</a></li>
+            <li><a href="/src/backend/index.php">Home</a></li>
+            <li><a href="/src/backend/admin/admin.php">Admin</a></li>
+            <li><a href="/src/backend/bookings/bookings.php">Booking</a></li>
         </ul>
     </nav>

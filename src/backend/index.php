@@ -1,5 +1,5 @@
 <?php
-include("/src/backend/partials/menu.php")
+include("partials/menu.php");
 ?>
 <div class="dashboard">
 
@@ -13,8 +13,6 @@ include("/src/backend/partials/menu.php")
 
 </div>
 
-
-   <footer>Copyright 2024. All Rights Preserved</footer>
-    </div>
-</body>
-</html>
+<?php
+include("partials/footer.php");
+?>

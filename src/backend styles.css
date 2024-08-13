@@ -26,6 +26,7 @@
     color:black;
     padding: 8px 0;
    }
+   
    .dashboard{
     display: flex;
     justify-content: space-around;
@@ -40,15 +41,26 @@
     border-radius: 20px;
     box-shadow: 6px 4px 10px #312312;
    }
+
    footer{
     background-color:#a6a6a6;
     padding: 8px 0;
     text-align: center;
    }
+
    .admin-table{
     width:100%;
     text-align: left;
     padding: 12px;
    }
+
+   tr:nth-child(odd){
+    background-color: rgb(148, 90, 175);
+   }
+
+   tr:nth-child(even){
+    background-color: rgb(98, 122, 173);
+   }
+
 
 }
