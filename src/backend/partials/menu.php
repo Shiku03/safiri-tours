@@ -1,3 +1,12 @@
+<?php
+$inc= include ("/src/backend/constants/db-connect.php");
+
+if($inc){
+    echo "file included successfully";
+} else {
+    echo "file inclusion failed";
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="UTF-8">
@@ -18,6 +27,7 @@
     <div class="content">
     <nav>
         <ul>
+        
             <li><a href="/src/backend/index.php">Home</a></li>
             <li><a href="/src/backend/admin/admin.php">Admin</a></li>
             <li><a href="/src/backend/bookings/bookings.php">Booking</a></li>
