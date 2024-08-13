@@ -3,8 +3,10 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        font-size: 13px;
     }
     .content{
+        width:100vw;
        background-color: #cfc3a2;
       }
     nav{
@@ -80,7 +82,7 @@
    .delete-btn:active{
     background-color: #ee8282;
    }
-   table.admin-table{
+   table.admin-table, .bookings-table{
     width:100%;
     text-align: left;
     border-collapse: collapse;
@@ -95,6 +97,16 @@
 
    tr:nth-child(even){
     background-color: rgb(160, 135, 96);
+   }
+   .bookings-table td{
+    border-right:1px solid black;
+    border-left:1px solid black;
+   }
+   .bookings-table td:first-of-type{
+    border-left:none;
+   }
+   .bookings-table td:last-of-type{
+    border-right:none;
    }
 
    form.form{
