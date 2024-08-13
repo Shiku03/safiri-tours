@@ -1,4 +1,5 @@
 <?php
+include("constants/db-connect.php");
 include("partials/menu.php");
 ?>
 <div class="dashboard">

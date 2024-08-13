@@ -5,12 +5,10 @@
         box-sizing: border-box;
     }
     .content{
-        width: 100vw;
-        min-height: 100vh;
-        overflow-x: hidden;
-    }
+       background-color: #cfc3a2;
+      }
     nav{
-        background-color:#aaa3a3;
+        background-color:#eece75;
         padding: 8px ;
         
     }
@@ -31,7 +29,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color:#c6c6c6;
+    
    }
 
    .dashboard-item{
@@ -48,6 +46,40 @@
     text-align: center;
    }
 
+   button{
+    padding: 4px;
+    border:1px solid black;
+    border-radius: 4px;
+    margin:8px 4px;
+    text-transform: uppercase;
+   }
+   .add-btn, .add-submit{
+    background-color: #8b8bbd;
+   }
+   .add-btn:hover, .add-submit:hover{
+    background-color: #9595d6;
+   }
+   .add-btn:active, .add-submit:active{
+    background-color: #aaaaf7;
+   }
+   .update-btn, .update-submit{
+    background-color: #81c281;
+   }
+   .update-btn:hover, .update-submit:hover{
+    background-color: #87d187;
+   }
+   .update-btn:active, .update-submit:active{
+    background-color: #88e38a;
+   }
+   .delete-btn{
+    background-color: #b46262;
+   }
+   .delete-btn:hover{
+    background-color: #ce6969;
+   }
+   .delete-btn:active{
+    background-color: #ee8282;
+   }
    table.admin-table{
     width:100%;
     text-align: left;
@@ -58,12 +90,51 @@
    }
 
    tr:nth-child(odd){
-    background-color: rgb(148, 90, 175);
+    background-color: rgb(190, 163, 120);
    }
 
    tr:nth-child(even){
-    background-color: rgb(98, 122, 173);
+    background-color: rgb(160, 135, 96);
    }
 
-
+   form.form{
+    padding:12px;
+    text-align: left;
+   }
+   form.form div{
+    margin:30px;
+    padding: 10px;
+   }
+   form.form input{
+    padding:4px;
+   }
+    form.form input.submit{
+    border:1px solid black;
+    border-radius:4px;
+   }
+   form.delete-form h4{
+    margin:10px;
+   }
+   input.cancel{
+    background-color:#7bc97b;
+    border: 1px solid black;
+    border-radius:4px;
+   }
+   input.delete{
+    background-color:#eb6b6b;
+    border: 1px solid black;
+    border-radius:4px;
+   }
+   form.delete-form{
+    padding:12px;
+    text-align: center;
+   }
+   form.delete-form div{
+    margin:30px;
+    padding: 10px;
+   }
+   form.delete-form input{
+    margin:10px;
+    padding:4px;
+   }
 }
