@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -45,45 +44,68 @@
 
 
         <div class="form-container">
-            <form action="" class="booking-form">
+            <form action="" class="booking-form" method="post">
                 <div>
-                    <label for=""> Fullname:
+                    <label for="fullname"> Fullname:
 
                     </label>
-                    <input type="text" required>
+                    <input type="text" name="fullname" required>
                 </div>
 
                 <div>
-                    <label for=""> Trip:
-
+                    <label for="Starting point"> From:
                     </label>
-                    <input type="text" required>
+                    <input type="text" name="from" id="Starting-point" required>
                 </div>
 
                 <div>
-                    <label for=""> Means:
-
+                <label for="Destination"> To:
                     </label>
-                    <input type="text" required>
+                    <input type="text" name="to" id="Destination" required>
                 </div>
 
                 <div>
-                    <label for=""> Start date:
+                    <label for="Start date"> Start date:
                     </label>
-                    <input type="date" required>
+                    <input type="date" name="start" id="Finishing date" required>
                 </div>
 
                 <div>
-                    <label for=""> End date:
+                    <label for="Finishing date"> End date:
                     </label>
-                    <input type="date" required>
+                    <input type="date" name="end" id="Finishing date" required>
                 </div>
 
                 <div>
-                    <input type="submit" value="Book today" class="submit-btn">
+                    <input type="submit" value="Book today" class="submit-btn" name="book">
 
                 </div>
             </form>
+
+            <?php
+  include("../backend/constants/db-connect.php");
+  
+        if(isset($_POST['book'])){
+            //echo "File submitted";
+            $fullname=$_POST['fullname'];
+            $from=$_POST['from'];
+            $to=$_POST['to'];
+            $startDate=$_POST['start'];
+            $endDate=$_POST['end'];
+            $bookingDate=date('Y-m-d H:i:s');
+
+            $sql= "INSERT INTO bookings_tbl(fullname,start_pt,destination,first_day,last_day,booking_date) VALUES( '$fullname','$from','$to', '$startDate', '$endDate', '$bookingDate')";
+
+            $result=$conn->query($sql);
+            if($result){
+                echo "Form submitted successfully";
+            }
+        } else {
+            echo "File not submitted";
+        }
+        ?>
+        
+
         </div>
     </div>
 

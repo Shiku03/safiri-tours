@@ -21,7 +21,7 @@
         <ul>
             <li><a href="/src/backend/index.php">Home</a></li>
             <li><a href="/src/backend/admin/admin.php">Admin</a></li>
-            <li><a href="/src/backend/bookings/bookings.php">Booking</a></li>
+            <li><a href="/src/backend/bookings/view-bookings.php">Booking</a></li>
         </ul>
     </nav>
     <div class="content">
