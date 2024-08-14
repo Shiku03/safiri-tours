@@ -6,7 +6,8 @@
         font-size: 13px;
     }
     .content{
-        width:100vw;
+        min-width:100vw;
+        max-width: max-content;
        background-color: #cfc3a2;
       }
     nav{

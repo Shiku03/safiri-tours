@@ -57,11 +57,11 @@ if(isset($_SESSION['delete'])){
                             <td><?php echo $position; ?></td>
                            <td>
                             <a href="<?php echo $siteurl. "/update-admin.php?id=".$id;?>">
-                            <button class="update-btn">Update admin</button>
+                            <button class="update-btn">Update </button>
                             </a></td>
                            <td>
                             <a href="<?php echo $siteurl. "/delete-admin.php?id=".$id;?>">
-                            <button class="delete-btn">Delete admin</button>
+                            <button class="delete-btn">Delete </button>
                             </a>
                         </td>
                         </tr>
