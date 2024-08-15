@@ -4,6 +4,7 @@
         padding: 0;
         box-sizing: border-box;
         font-size: 13px;
+        font-family: 'Tenor sans', serif;
     }
     .content{
         min-width:100vw;
@@ -13,7 +14,7 @@
     nav{
         background-color:#eece75;
         padding: 8px ;
-        
+        font-family: 'Archivo', sans-serif;
     }
     nav ul{
         text-align: center;
@@ -42,7 +43,12 @@
     border-radius: 20px;
     box-shadow: 6px 4px 10px #312312;
    }
-
+.dashboard-item p{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
    footer{
     background-color:#a6a6a6;
     padding: 8px 0;
@@ -151,3 +157,324 @@
     padding:4px;
    }
 }
+@media (min-width:500px) and (max-width:960px){
+   
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 16px;
+            font-family: 'Tenor sans', serif;
+        }
+        .content{
+            min-width:100vw;
+            max-width: max-content;
+           background-color: #cfc3a2;
+          }
+        nav{
+            background-color:#eece75;
+            padding: 8px ;
+            font-family: 'Archivo', sans-serif;
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 8px 20px;
+        }
+       nav ul li a {
+        text-decoration: none;
+        color:black;
+        padding: 8px 0;
+       }
+    
+       .dashboard{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+       }
+    
+       .dashboard-item{
+        margin:40px;
+        padding:30px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 6px 4px 10px #312312;
+       }
+    .dashboard-item p{
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+       footer{
+        background-color:#a6a6a6;
+        padding: 8px 0;
+        text-align: center;
+       }
+    
+       button{
+        padding: 4px;
+        border:1px solid black;
+        border-radius: 4px;
+        margin:8px 4px;
+        text-transform: uppercase;
+       }
+       .add-btn, .add-submit{
+        background-color: #8b8bbd;
+       }
+       .add-btn:hover, .add-submit:hover{
+        background-color: #9595d6;
+       }
+       .add-btn:active, .add-submit:active{
+        background-color: #aaaaf7;
+       }
+       .update-btn, .update-submit{
+        background-color: #81c281;
+       }
+       .update-btn:hover, .update-submit:hover{
+        background-color: #87d187;
+       }
+       .update-btn:active, .update-submit:active{
+        background-color: #88e38a;
+       }
+       .delete-btn{
+        background-color: #b46262;
+       }
+       .delete-btn:hover{
+        background-color: #ce6969;
+       }
+       .delete-btn:active{
+        background-color: #ee8282;
+       }
+       table.admin-table, .bookings-table{
+        width:100%;
+        text-align: left;
+        border-collapse: collapse;
+       }
+       th, td{
+        padding: 12px;
+       }
+    
+       tr:nth-child(odd){
+        background-color: rgb(190, 163, 120);
+       }
+    
+       tr:nth-child(even){
+        background-color: rgb(160, 135, 96);
+       }
+       .bookings-table td{
+        border-right:1px solid black;
+        border-left:1px solid black;
+       }
+       .bookings-table td:first-of-type{
+        border-left:none;
+       }
+       .bookings-table td:last-of-type{
+        border-right:none;
+       }
+    
+       form.form{
+        padding:12px;
+        text-align: left;
+       }
+       form.form div{
+        margin:30px;
+        padding: 10px;
+       }
+       form.form input{
+        padding:4px;
+       }
+        form.form input.submit{
+        border:1px solid black;
+        border-radius:4px;
+       }
+       form.delete-form h4{
+        margin:10px;
+       }
+       input.cancel{
+        background-color:#7bc97b;
+        border: 1px solid black;
+        border-radius:4px;
+       }
+       input.delete{
+        background-color:#eb6b6b;
+        border: 1px solid black;
+        border-radius:4px;
+       }
+       form.delete-form{
+        padding:12px;
+        text-align: center;
+       }
+       form.delete-form div{
+        margin:30px;
+        padding: 10px;
+       }
+       form.delete-form input{
+        margin:10px;
+        padding:4px;
+       }
+    }
+
+    @media (min-width:960px){
+   
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: 'Tenor sans', serif;
+        }
+        .content{
+            min-width:100vw;
+            max-width: max-content;
+           background-color: #cfc3a2;
+          }
+        nav{
+            background-color:#eece75;
+            padding: 8px ;
+            font-family: 'Archivo', sans-serif;
+        }
+        nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 8px 20px;
+        }
+       nav ul li a {
+        text-decoration: none;
+        color:black;
+        padding: 8px 0;
+       }
+    
+       .dashboard{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+       }
+    
+       .dashboard-item{
+        margin:40px;
+        padding:30px;
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 6px 4px 10px #312312;
+       }
+    .dashboard-item p{
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.1rem;
+    }
+       footer{
+        background-color:#a6a6a6;
+        padding: 8px 0;
+        text-align: center;
+       }
+    
+       button{
+        padding: 4px;
+        border:1px solid black;
+        border-radius: 4px;
+        margin:8px 4px;
+        text-transform: uppercase;
+       }
+       .add-btn, .add-submit{
+        background-color: #8b8bbd;
+       }
+       .add-btn:hover, .add-submit:hover{
+        background-color: #9595d6;
+       }
+       .add-btn:active, .add-submit:active{
+        background-color: #aaaaf7;
+       }
+       .update-btn, .update-submit{
+        background-color: #81c281;
+       }
+       .update-btn:hover, .update-submit:hover{
+        background-color: #87d187;
+       }
+       .update-btn:active, .update-submit:active{
+        background-color: #88e38a;
+       }
+       .delete-btn{
+        background-color: #b46262;
+       }
+       .delete-btn:hover{
+        background-color: #ce6969;
+       }
+       .delete-btn:active{
+        background-color: #ee8282;
+       }
+       table.admin-table, .bookings-table{
+        width:100%;
+        text-align: left;
+        border-collapse: collapse;
+       }
+       th, td{
+        padding: 12px;
+       }
+    
+       tr:nth-child(odd){
+        background-color: rgb(190, 163, 120);
+       }
+    
+       tr:nth-child(even){
+        background-color: rgb(160, 135, 96);
+       }
+       .bookings-table td{
+        border-right:1px solid black;
+        border-left:1px solid black;
+       }
+       .bookings-table td:first-of-type{
+        border-left:none;
+       }
+       .bookings-table td:last-of-type{
+        border-right:none;
+       }
+    
+       form.form{
+        padding:12px;
+        text-align: left;
+       }
+       form.form div{
+        margin:30px;
+        padding: 10px;
+       }
+       form.form input{
+        padding:4px;
+       }
+        form.form input.submit{
+        border:1px solid black;
+        border-radius:4px;
+       }
+       form.delete-form h4{
+        margin:10px;
+       }
+       input.cancel{
+        background-color:#7bc97b;
+        border: 1px solid black;
+        border-radius:4px;
+       }
+       input.delete{
+        background-color:#eb6b6b;
+        border: 1px solid black;
+        border-radius:4px;
+       }
+       form.delete-form{
+        padding:12px;
+        text-align: center;
+       }
+       form.delete-form div{
+        margin:30px;
+        padding: 10px;
+       }
+       form.delete-form input{
+        margin:10px;
+        padding:4px;
+       }
+    }
